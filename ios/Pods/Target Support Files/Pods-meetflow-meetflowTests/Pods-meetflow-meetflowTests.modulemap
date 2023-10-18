@@ -1,0 +1,6 @@
+module Pods_meetflow_meetflowTests {
+  umbrella header "Pods-meetflow-meetflowTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
