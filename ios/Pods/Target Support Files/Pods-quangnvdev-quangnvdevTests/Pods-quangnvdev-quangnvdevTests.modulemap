@@ -1,0 +1,6 @@
+module Pods_quangnvdev_quangnvdevTests {
+  umbrella header "Pods-quangnvdev-quangnvdevTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

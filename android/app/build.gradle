@@ -73,9 +73,9 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    namespace "com.meetflow"
+    namespace "quangnv.dev"
     defaultConfig {
-        applicationId "com.meetflow"
+        applicationId "quangnv.dev"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

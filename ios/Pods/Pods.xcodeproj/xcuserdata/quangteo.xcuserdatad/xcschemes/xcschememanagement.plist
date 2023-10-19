@@ -74,12 +74,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-meetflow-meetflowTests.xcscheme</key>
+		<key>Pods-quangnvdev-quangnvdevTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-meetflow.xcscheme</key>
+		<key>Pods-quangnvdev.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

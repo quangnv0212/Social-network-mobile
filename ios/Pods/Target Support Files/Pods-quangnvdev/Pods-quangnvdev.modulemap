@@ -1,0 +1,6 @@
+module Pods_quangnvdev {
+  umbrella header "Pods-quangnvdev-umbrella.h"
+
+  export *
+  module * { export * }
+}

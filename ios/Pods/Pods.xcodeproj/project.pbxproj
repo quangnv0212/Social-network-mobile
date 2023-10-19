@@ -2866,10 +2866,10 @@
 		46EB2E000196D0 /* RCTVideoPlayerViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000AA70 /* RCTVideoPlayerViewControllerDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E000196E0 /* UIView+FindUIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E0000AA80 /* UIView+FindUIViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46EB2E00019740 /* react-native-video-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00019730 /* react-native-video-dummy.m */; };
-		46EB2E00019820 /* Pods-meetflow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00019810 /* Pods-meetflow-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E00019880 /* Pods-meetflow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00019870 /* Pods-meetflow-dummy.m */; };
-		46EB2E00019960 /* Pods-meetflow-meetflowTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00019950 /* Pods-meetflow-meetflowTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		46EB2E000199C0 /* Pods-meetflow-meetflowTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000199B0 /* Pods-meetflow-meetflowTests-dummy.m */; };
+		46EB2E00019820 /* Pods-quangnvdev-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00019810 /* Pods-quangnvdev-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E00019880 /* Pods-quangnvdev-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E00019870 /* Pods-quangnvdev-dummy.m */; };
+		46EB2E00019960 /* Pods-quangnvdev-quangnvdevTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46EB2E00019950 /* Pods-quangnvdev-quangnvdevTests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		46EB2E000199C0 /* Pods-quangnvdev-quangnvdevTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46EB2E000199B0 /* Pods-quangnvdev-quangnvdevTests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -5333,11 +5333,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F1F1D31A968EBBEFF8B0D2909E239F0 /* Pods-quangnvdev */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-quangnvdev"; path = "libPods-quangnvdev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "RCT-Folly"; path = "libRCT-Folly.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E649614D7644BF68C2F5D4CB3FBF8DC /* React-NativeModulesApple */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-NativeModulesApple"; path = "libReact-NativeModulesApple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2577F299FCB0A19824FE989BE77B8E8F /* React-jsinspector */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsinspector"; path = "libReact-jsinspector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		269BE773C9482484B70949A40F4EA525 /* React-RCTSettings */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTSettings"; path = "libReact-RCTSettings.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		346652BCE05065D4E393C94AA52C18AD /* Pods-meetflow */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-meetflow"; path = "libPods-meetflow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3501832F51E21BCD681DC315B3424B43 /* BVLinearGradient */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = BVLinearGradient; path = libBVLinearGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		37592FDAD45752511010F4B06AC57355 /* React-cxxreact */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-cxxreact"; path = "libReact-cxxreact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		396DAFDC3DCFBF31A37A3CC9488C0DDC /* Flipper-Fmt */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Flipper-Fmt"; path = "libFlipper-Fmt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -8325,24 +8325,24 @@
 		46EB2E00019710 /* react-native-video.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "react-native-video.release.xcconfig"; sourceTree = "<group>"; };
 		46EB2E00019720 /* react-native-video-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "react-native-video-prefix.pch"; sourceTree = "<group>"; };
 		46EB2E00019730 /* react-native-video-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "react-native-video-dummy.m"; sourceTree = "<group>"; };
-		46EB2E000197E0 /* Pods-meetflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meetflow.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E000197F0 /* Pods-meetflow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meetflow.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00019800 /* Pods-meetflow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-meetflow.modulemap"; sourceTree = "<group>"; };
-		46EB2E00019810 /* Pods-meetflow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-meetflow-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00019830 /* Pods-meetflow-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meetflow-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00019840 /* Pods-meetflow-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meetflow-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00019850 /* Pods-meetflow-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-meetflow-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E00019860 /* Pods-meetflow-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-meetflow-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E00019870 /* Pods-meetflow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-meetflow-dummy.m"; sourceTree = "<group>"; };
-		46EB2E00019920 /* Pods-meetflow-meetflowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meetflow-meetflowTests.release.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00019930 /* Pods-meetflow-meetflowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-meetflow-meetflowTests.debug.xcconfig"; sourceTree = "<group>"; };
-		46EB2E00019940 /* Pods-meetflow-meetflowTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-meetflow-meetflowTests.modulemap"; sourceTree = "<group>"; };
-		46EB2E00019950 /* Pods-meetflow-meetflowTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-meetflow-meetflowTests-umbrella.h"; sourceTree = "<group>"; };
-		46EB2E00019970 /* Pods-meetflow-meetflowTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meetflow-meetflowTests-frameworks.sh"; sourceTree = "<group>"; };
-		46EB2E00019980 /* Pods-meetflow-meetflowTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-meetflow-meetflowTests-resources.sh"; sourceTree = "<group>"; };
-		46EB2E00019990 /* Pods-meetflow-meetflowTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-meetflow-meetflowTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		46EB2E000199A0 /* Pods-meetflow-meetflowTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-meetflow-meetflowTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		46EB2E000199B0 /* Pods-meetflow-meetflowTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-meetflow-meetflowTests-dummy.m"; sourceTree = "<group>"; };
+		46EB2E000197E0 /* Pods-quangnvdev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quangnvdev.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E000197F0 /* Pods-quangnvdev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quangnvdev.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00019800 /* Pods-quangnvdev.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-quangnvdev.modulemap"; sourceTree = "<group>"; };
+		46EB2E00019810 /* Pods-quangnvdev-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-quangnvdev-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00019830 /* Pods-quangnvdev-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-quangnvdev-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00019840 /* Pods-quangnvdev-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-quangnvdev-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00019850 /* Pods-quangnvdev-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quangnvdev-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E00019860 /* Pods-quangnvdev-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-quangnvdev-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E00019870 /* Pods-quangnvdev-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-quangnvdev-dummy.m"; sourceTree = "<group>"; };
+		46EB2E00019920 /* Pods-quangnvdev-quangnvdevTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quangnvdev-quangnvdevTests.release.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00019930 /* Pods-quangnvdev-quangnvdevTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-quangnvdev-quangnvdevTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46EB2E00019940 /* Pods-quangnvdev-quangnvdevTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-quangnvdev-quangnvdevTests.modulemap"; sourceTree = "<group>"; };
+		46EB2E00019950 /* Pods-quangnvdev-quangnvdevTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-quangnvdev-quangnvdevTests-umbrella.h"; sourceTree = "<group>"; };
+		46EB2E00019970 /* Pods-quangnvdev-quangnvdevTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-quangnvdev-quangnvdevTests-frameworks.sh"; sourceTree = "<group>"; };
+		46EB2E00019980 /* Pods-quangnvdev-quangnvdevTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-quangnvdev-quangnvdevTests-resources.sh"; sourceTree = "<group>"; };
+		46EB2E00019990 /* Pods-quangnvdev-quangnvdevTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-quangnvdev-quangnvdevTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		46EB2E000199A0 /* Pods-quangnvdev-quangnvdevTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-quangnvdev-quangnvdevTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		46EB2E000199B0 /* Pods-quangnvdev-quangnvdevTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-quangnvdev-quangnvdevTests-dummy.m"; sourceTree = "<group>"; };
 		484E6781D8E6CE2FB8F6C8D7C9578D97 /* RNShare */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNShare; path = libRNShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		50B5347C9A6E93B7D4CFC3673BA6FB7E /* RNScreens */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNScreens; path = libRNScreens.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FCF98CEFF94C742080B6965D537AD0 /* react-native-safe-area-context */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "react-native-safe-area-context"; path = "libreact-native-safe-area-context.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -8382,8 +8382,8 @@
 		E7178FECB829C9576A3723658B07F087 /* React-Codegen */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-Codegen"; path = "libReact-Codegen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E93F701CA8EB196D77AE99E094D873E4 /* Flipper */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = Flipper; path = libFlipper.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEDBF403E8E0B3885E65C2741B536BC5 /* React-RCTImage */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTImage"; path = "libReact-RCTImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2305E507492BE73240287CCDA5B79B6 /* Pods-meetflow-meetflowTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-meetflow-meetflowTests"; path = "libPods-meetflow-meetflowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E7C88DFCD460A4B46B913ADEB8A641 /* React-jsiexecutor */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-jsiexecutor"; path = "libReact-jsiexecutor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3499A9383B5100CE59AE16C57044C39 /* Pods-quangnvdev-quangnvdevTests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-quangnvdev-quangnvdevTests"; path = "libPods-quangnvdev-quangnvdevTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4BDA69E3BCB0166D49FB679ABADCA00 /* fmt */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = fmt; path = libfmt.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C55DC590A399974FB9EC4D06596AB0 /* RNSound */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = RNSound; path = libRNSound.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F71EBF73F354B475D465FF6DE9A66707 /* React-RCTBlob */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "React-RCTBlob"; path = "libReact-RCTBlob.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -8852,8 +8852,8 @@
 				F4BDA69E3BCB0166D49FB679ABADCA00 /* fmt */,
 				3CA7A9404CCDD6BA22C97F8348CE3209 /* glog */,
 				FB6FAD8F0183E86ACBFBD8A81BA7BF3A /* libevent */,
-				346652BCE05065D4E393C94AA52C18AD /* Pods-meetflow */,
-				F2305E507492BE73240287CCDA5B79B6 /* Pods-meetflow-meetflowTests */,
+				0F1F1D31A968EBBEFF8B0D2909E239F0 /* Pods-quangnvdev */,
+				F3499A9383B5100CE59AE16C57044C39 /* Pods-quangnvdev-quangnvdevTests */,
 				1936453FF2A7E3A13063C4917C4D5598 /* RCT-Folly */,
 				F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */,
 				E7178FECB829C9576A3723658B07F087 /* React-Codegen */,
@@ -8915,8 +8915,8 @@
 		46EB2E00000070 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E000197D0 /* Pods-meetflow */,
-				46EB2E00019910 /* Pods-meetflow-meetflowTests */,
+				46EB2E000197D0 /* Pods-quangnvdev */,
+				46EB2E00019910 /* Pods-quangnvdev-quangnvdevTests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -14350,38 +14350,38 @@
 			path = "../../ios/Pods/Target Support Files/react-native-video";
 			sourceTree = "<group>";
 		};
-		46EB2E000197D0 /* Pods-meetflow */ = {
+		46EB2E000197D0 /* Pods-quangnvdev */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00019800 /* Pods-meetflow.modulemap */,
-				46EB2E00019860 /* Pods-meetflow-acknowledgements.markdown */,
-				46EB2E00019850 /* Pods-meetflow-acknowledgements.plist */,
-				46EB2E00019870 /* Pods-meetflow-dummy.m */,
-				46EB2E00019830 /* Pods-meetflow-frameworks.sh */,
-				46EB2E00019840 /* Pods-meetflow-resources.sh */,
-				46EB2E00019810 /* Pods-meetflow-umbrella.h */,
-				46EB2E000197F0 /* Pods-meetflow.debug.xcconfig */,
-				46EB2E000197E0 /* Pods-meetflow.release.xcconfig */,
+				46EB2E00019800 /* Pods-quangnvdev.modulemap */,
+				46EB2E00019860 /* Pods-quangnvdev-acknowledgements.markdown */,
+				46EB2E00019850 /* Pods-quangnvdev-acknowledgements.plist */,
+				46EB2E00019870 /* Pods-quangnvdev-dummy.m */,
+				46EB2E00019830 /* Pods-quangnvdev-frameworks.sh */,
+				46EB2E00019840 /* Pods-quangnvdev-resources.sh */,
+				46EB2E00019810 /* Pods-quangnvdev-umbrella.h */,
+				46EB2E000197F0 /* Pods-quangnvdev.debug.xcconfig */,
+				46EB2E000197E0 /* Pods-quangnvdev.release.xcconfig */,
 			);
-			name = "Pods-meetflow";
-			path = "Target Support Files/Pods-meetflow";
+			name = "Pods-quangnvdev";
+			path = "Target Support Files/Pods-quangnvdev";
 			sourceTree = "<group>";
 		};
-		46EB2E00019910 /* Pods-meetflow-meetflowTests */ = {
+		46EB2E00019910 /* Pods-quangnvdev-quangnvdevTests */ = {
 			isa = PBXGroup;
 			children = (
-				46EB2E00019940 /* Pods-meetflow-meetflowTests.modulemap */,
-				46EB2E000199A0 /* Pods-meetflow-meetflowTests-acknowledgements.markdown */,
-				46EB2E00019990 /* Pods-meetflow-meetflowTests-acknowledgements.plist */,
-				46EB2E000199B0 /* Pods-meetflow-meetflowTests-dummy.m */,
-				46EB2E00019970 /* Pods-meetflow-meetflowTests-frameworks.sh */,
-				46EB2E00019980 /* Pods-meetflow-meetflowTests-resources.sh */,
-				46EB2E00019950 /* Pods-meetflow-meetflowTests-umbrella.h */,
-				46EB2E00019930 /* Pods-meetflow-meetflowTests.debug.xcconfig */,
-				46EB2E00019920 /* Pods-meetflow-meetflowTests.release.xcconfig */,
+				46EB2E00019940 /* Pods-quangnvdev-quangnvdevTests.modulemap */,
+				46EB2E000199A0 /* Pods-quangnvdev-quangnvdevTests-acknowledgements.markdown */,
+				46EB2E00019990 /* Pods-quangnvdev-quangnvdevTests-acknowledgements.plist */,
+				46EB2E000199B0 /* Pods-quangnvdev-quangnvdevTests-dummy.m */,
+				46EB2E00019970 /* Pods-quangnvdev-quangnvdevTests-frameworks.sh */,
+				46EB2E00019980 /* Pods-quangnvdev-quangnvdevTests-resources.sh */,
+				46EB2E00019950 /* Pods-quangnvdev-quangnvdevTests-umbrella.h */,
+				46EB2E00019930 /* Pods-quangnvdev-quangnvdevTests.debug.xcconfig */,
+				46EB2E00019920 /* Pods-quangnvdev-quangnvdevTests.release.xcconfig */,
 			);
-			name = "Pods-meetflow-meetflowTests";
-			path = "Target Support Files/Pods-meetflow-meetflowTests";
+			name = "Pods-quangnvdev-quangnvdevTests";
+			path = "Target Support Files/Pods-quangnvdev-quangnvdevTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -16556,7 +16556,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00019820 /* Pods-meetflow-umbrella.h in Headers */,
+				46EB2E00019820 /* Pods-quangnvdev-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16564,7 +16564,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00019960 /* Pods-meetflow-meetflowTests-umbrella.h in Headers */,
+				46EB2E00019960 /* Pods-quangnvdev-quangnvdevTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -16676,91 +16676,6 @@
 			name = RNImageCropPicker;
 			productName = RNImageCropPicker;
 			productReference = 3AEA4A114C08533A2C0F8E039A4C5EB9 /* RNImageCropPicker */;
-			productType = "com.apple.product-type.library.static";
-		};
-		1323C6F08EFFB932BCB7943EB2E6161A /* Pods-meetflow-meetflowTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E000198A0 /* Build configuration list for PBXNativeTarget "Pods-meetflow-meetflowTests" */;
-			buildPhases = (
-				46EB2E000198E0 /* Headers */,
-				46EB2E000198F0 /* Sources */,
-				46EB2E00019900 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E0001A2B0 /* PBXTargetDependency */,
-				46EB2E0001A2D0 /* PBXTargetDependency */,
-				46EB2E0001A2F0 /* PBXTargetDependency */,
-				46EB2E0001A310 /* PBXTargetDependency */,
-				46EB2E0001A330 /* PBXTargetDependency */,
-				46EB2E0001A350 /* PBXTargetDependency */,
-				46EB2E0001A370 /* PBXTargetDependency */,
-				46EB2E0001A390 /* PBXTargetDependency */,
-				46EB2E0001A3B0 /* PBXTargetDependency */,
-				46EB2E0001A3D0 /* PBXTargetDependency */,
-				46EB2E0001A3F0 /* PBXTargetDependency */,
-				46EB2E0001A410 /* PBXTargetDependency */,
-				46EB2E0001A430 /* PBXTargetDependency */,
-				46EB2E0001A450 /* PBXTargetDependency */,
-				46EB2E0001A470 /* PBXTargetDependency */,
-				46EB2E0001A490 /* PBXTargetDependency */,
-				46EB2E0001A4B0 /* PBXTargetDependency */,
-				46EB2E0001A4D0 /* PBXTargetDependency */,
-				46EB2E0001A4F0 /* PBXTargetDependency */,
-				46EB2E0001A510 /* PBXTargetDependency */,
-				46EB2E0001A530 /* PBXTargetDependency */,
-				46EB2E0001A550 /* PBXTargetDependency */,
-				46EB2E0001A570 /* PBXTargetDependency */,
-				46EB2E0001A590 /* PBXTargetDependency */,
-				46EB2E0001A5B0 /* PBXTargetDependency */,
-				46EB2E0001A5D0 /* PBXTargetDependency */,
-				46EB2E0001A5F0 /* PBXTargetDependency */,
-				46EB2E0001A610 /* PBXTargetDependency */,
-				46EB2E0001A630 /* PBXTargetDependency */,
-				46EB2E0001A650 /* PBXTargetDependency */,
-				46EB2E0001A670 /* PBXTargetDependency */,
-				46EB2E0001A690 /* PBXTargetDependency */,
-				46EB2E0001A6B0 /* PBXTargetDependency */,
-				46EB2E0001A6D0 /* PBXTargetDependency */,
-				46EB2E0001A6F0 /* PBXTargetDependency */,
-				46EB2E0001A710 /* PBXTargetDependency */,
-				46EB2E0001A730 /* PBXTargetDependency */,
-				46EB2E0001A750 /* PBXTargetDependency */,
-				46EB2E0001A770 /* PBXTargetDependency */,
-				46EB2E0001A790 /* PBXTargetDependency */,
-				46EB2E0001A7B0 /* PBXTargetDependency */,
-				46EB2E0001A7D0 /* PBXTargetDependency */,
-				46EB2E0001A7F0 /* PBXTargetDependency */,
-				46EB2E0001A810 /* PBXTargetDependency */,
-				46EB2E0001A830 /* PBXTargetDependency */,
-				46EB2E0001A850 /* PBXTargetDependency */,
-				46EB2E0001A870 /* PBXTargetDependency */,
-				46EB2E0001A890 /* PBXTargetDependency */,
-				46EB2E0001A8B0 /* PBXTargetDependency */,
-				46EB2E0001A8D0 /* PBXTargetDependency */,
-				46EB2E0001A8F0 /* PBXTargetDependency */,
-				46EB2E0001A910 /* PBXTargetDependency */,
-				46EB2E0001A930 /* PBXTargetDependency */,
-				46EB2E0001A950 /* PBXTargetDependency */,
-				46EB2E0001A970 /* PBXTargetDependency */,
-				46EB2E0001A990 /* PBXTargetDependency */,
-				46EB2E0001A9B0 /* PBXTargetDependency */,
-				46EB2E0001A9D0 /* PBXTargetDependency */,
-				46EB2E0001A9F0 /* PBXTargetDependency */,
-				46EB2E0001AA10 /* PBXTargetDependency */,
-				46EB2E0001AA30 /* PBXTargetDependency */,
-				46EB2E0001AA50 /* PBXTargetDependency */,
-				46EB2E0001AA70 /* PBXTargetDependency */,
-				46EB2E0001AA90 /* PBXTargetDependency */,
-				46EB2E0001AAB0 /* PBXTargetDependency */,
-				46EB2E0001AAD0 /* PBXTargetDependency */,
-				46EB2E0001AAF0 /* PBXTargetDependency */,
-				46EB2E0001AB10 /* PBXTargetDependency */,
-			);
-			name = "Pods-meetflow-meetflowTests";
-			productName = "Pods-meetflow-meetflowTests";
-			productReference = F2305E507492BE73240287CCDA5B79B6 /* Pods-meetflow-meetflowTests */;
 			productType = "com.apple.product-type.library.static";
 		};
 		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
@@ -16907,6 +16822,91 @@
 			productReference = B058F035CFD84ECBF8414E4EAE5834FC /* react-native-video */;
 			productType = "com.apple.product-type.library.static";
 		};
+		436E7D1F907F1F656B08AB0DA8AB7161 /* Pods-quangnvdev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E00019760 /* Build configuration list for PBXNativeTarget "Pods-quangnvdev" */;
+			buildPhases = (
+				46EB2E000197A0 /* Headers */,
+				46EB2E000197B0 /* Sources */,
+				46EB2E000197C0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E00019A30 /* PBXTargetDependency */,
+				46EB2E00019A50 /* PBXTargetDependency */,
+				46EB2E00019A70 /* PBXTargetDependency */,
+				46EB2E00019A90 /* PBXTargetDependency */,
+				46EB2E00019AB0 /* PBXTargetDependency */,
+				46EB2E00019AD0 /* PBXTargetDependency */,
+				46EB2E00019AF0 /* PBXTargetDependency */,
+				46EB2E00019B10 /* PBXTargetDependency */,
+				46EB2E00019B30 /* PBXTargetDependency */,
+				46EB2E00019B50 /* PBXTargetDependency */,
+				46EB2E00019B70 /* PBXTargetDependency */,
+				46EB2E00019B90 /* PBXTargetDependency */,
+				46EB2E00019BB0 /* PBXTargetDependency */,
+				46EB2E00019BD0 /* PBXTargetDependency */,
+				46EB2E00019BF0 /* PBXTargetDependency */,
+				46EB2E00019C10 /* PBXTargetDependency */,
+				46EB2E00019C30 /* PBXTargetDependency */,
+				46EB2E00019C50 /* PBXTargetDependency */,
+				46EB2E00019C70 /* PBXTargetDependency */,
+				46EB2E00019C90 /* PBXTargetDependency */,
+				46EB2E00019CB0 /* PBXTargetDependency */,
+				46EB2E00019CD0 /* PBXTargetDependency */,
+				46EB2E00019CF0 /* PBXTargetDependency */,
+				46EB2E00019D10 /* PBXTargetDependency */,
+				46EB2E00019D30 /* PBXTargetDependency */,
+				46EB2E00019D50 /* PBXTargetDependency */,
+				46EB2E00019D70 /* PBXTargetDependency */,
+				46EB2E00019D90 /* PBXTargetDependency */,
+				46EB2E00019DB0 /* PBXTargetDependency */,
+				46EB2E00019DD0 /* PBXTargetDependency */,
+				46EB2E00019DF0 /* PBXTargetDependency */,
+				46EB2E00019E10 /* PBXTargetDependency */,
+				46EB2E00019E30 /* PBXTargetDependency */,
+				46EB2E00019E50 /* PBXTargetDependency */,
+				46EB2E00019E70 /* PBXTargetDependency */,
+				46EB2E00019E90 /* PBXTargetDependency */,
+				46EB2E00019EB0 /* PBXTargetDependency */,
+				46EB2E00019ED0 /* PBXTargetDependency */,
+				46EB2E00019EF0 /* PBXTargetDependency */,
+				46EB2E00019F10 /* PBXTargetDependency */,
+				46EB2E00019F30 /* PBXTargetDependency */,
+				46EB2E00019F50 /* PBXTargetDependency */,
+				46EB2E00019F70 /* PBXTargetDependency */,
+				46EB2E00019F90 /* PBXTargetDependency */,
+				46EB2E00019FB0 /* PBXTargetDependency */,
+				46EB2E00019FD0 /* PBXTargetDependency */,
+				46EB2E00019FF0 /* PBXTargetDependency */,
+				46EB2E0001A010 /* PBXTargetDependency */,
+				46EB2E0001A030 /* PBXTargetDependency */,
+				46EB2E0001A050 /* PBXTargetDependency */,
+				46EB2E0001A070 /* PBXTargetDependency */,
+				46EB2E0001A090 /* PBXTargetDependency */,
+				46EB2E0001A0B0 /* PBXTargetDependency */,
+				46EB2E0001A0D0 /* PBXTargetDependency */,
+				46EB2E0001A0F0 /* PBXTargetDependency */,
+				46EB2E0001A110 /* PBXTargetDependency */,
+				46EB2E0001A130 /* PBXTargetDependency */,
+				46EB2E0001A150 /* PBXTargetDependency */,
+				46EB2E0001A170 /* PBXTargetDependency */,
+				46EB2E0001A190 /* PBXTargetDependency */,
+				46EB2E0001A1B0 /* PBXTargetDependency */,
+				46EB2E0001A1D0 /* PBXTargetDependency */,
+				46EB2E0001A1F0 /* PBXTargetDependency */,
+				46EB2E0001A210 /* PBXTargetDependency */,
+				46EB2E0001A230 /* PBXTargetDependency */,
+				46EB2E0001A250 /* PBXTargetDependency */,
+				46EB2E0001A270 /* PBXTargetDependency */,
+				46EB2E0001A290 /* PBXTargetDependency */,
+			);
+			name = "Pods-quangnvdev";
+			productName = "Pods-quangnvdev";
+			productReference = 0F1F1D31A968EBBEFF8B0D2909E239F0 /* Pods-quangnvdev */;
+			productType = "com.apple.product-type.library.static";
+		};
 		463F41A7E8B252F8AC5024DA1F4AF6DA /* React-cxxreact */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E00016D20 /* Build configuration list for PBXNativeTarget "React-cxxreact" */;
@@ -17043,6 +17043,91 @@
 			name = "React-NativeModulesApple";
 			productName = "React-NativeModulesApple";
 			productReference = 1E649614D7644BF68C2F5D4CB3FBF8DC /* React-NativeModulesApple */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5895B1715B324140F627AE4B8C0C6501 /* Pods-quangnvdev-quangnvdevTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46EB2E000198A0 /* Build configuration list for PBXNativeTarget "Pods-quangnvdev-quangnvdevTests" */;
+			buildPhases = (
+				46EB2E000198E0 /* Headers */,
+				46EB2E000198F0 /* Sources */,
+				46EB2E00019900 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46EB2E0001A2B0 /* PBXTargetDependency */,
+				46EB2E0001A2D0 /* PBXTargetDependency */,
+				46EB2E0001A2F0 /* PBXTargetDependency */,
+				46EB2E0001A310 /* PBXTargetDependency */,
+				46EB2E0001A330 /* PBXTargetDependency */,
+				46EB2E0001A350 /* PBXTargetDependency */,
+				46EB2E0001A370 /* PBXTargetDependency */,
+				46EB2E0001A390 /* PBXTargetDependency */,
+				46EB2E0001A3B0 /* PBXTargetDependency */,
+				46EB2E0001A3D0 /* PBXTargetDependency */,
+				46EB2E0001A3F0 /* PBXTargetDependency */,
+				46EB2E0001A410 /* PBXTargetDependency */,
+				46EB2E0001A430 /* PBXTargetDependency */,
+				46EB2E0001A450 /* PBXTargetDependency */,
+				46EB2E0001A470 /* PBXTargetDependency */,
+				46EB2E0001A490 /* PBXTargetDependency */,
+				46EB2E0001A4B0 /* PBXTargetDependency */,
+				46EB2E0001A4D0 /* PBXTargetDependency */,
+				46EB2E0001A4F0 /* PBXTargetDependency */,
+				46EB2E0001A510 /* PBXTargetDependency */,
+				46EB2E0001A530 /* PBXTargetDependency */,
+				46EB2E0001A550 /* PBXTargetDependency */,
+				46EB2E0001A570 /* PBXTargetDependency */,
+				46EB2E0001A590 /* PBXTargetDependency */,
+				46EB2E0001A5B0 /* PBXTargetDependency */,
+				46EB2E0001A5D0 /* PBXTargetDependency */,
+				46EB2E0001A5F0 /* PBXTargetDependency */,
+				46EB2E0001A610 /* PBXTargetDependency */,
+				46EB2E0001A630 /* PBXTargetDependency */,
+				46EB2E0001A650 /* PBXTargetDependency */,
+				46EB2E0001A670 /* PBXTargetDependency */,
+				46EB2E0001A690 /* PBXTargetDependency */,
+				46EB2E0001A6B0 /* PBXTargetDependency */,
+				46EB2E0001A6D0 /* PBXTargetDependency */,
+				46EB2E0001A6F0 /* PBXTargetDependency */,
+				46EB2E0001A710 /* PBXTargetDependency */,
+				46EB2E0001A730 /* PBXTargetDependency */,
+				46EB2E0001A750 /* PBXTargetDependency */,
+				46EB2E0001A770 /* PBXTargetDependency */,
+				46EB2E0001A790 /* PBXTargetDependency */,
+				46EB2E0001A7B0 /* PBXTargetDependency */,
+				46EB2E0001A7D0 /* PBXTargetDependency */,
+				46EB2E0001A7F0 /* PBXTargetDependency */,
+				46EB2E0001A810 /* PBXTargetDependency */,
+				46EB2E0001A830 /* PBXTargetDependency */,
+				46EB2E0001A850 /* PBXTargetDependency */,
+				46EB2E0001A870 /* PBXTargetDependency */,
+				46EB2E0001A890 /* PBXTargetDependency */,
+				46EB2E0001A8B0 /* PBXTargetDependency */,
+				46EB2E0001A8D0 /* PBXTargetDependency */,
+				46EB2E0001A8F0 /* PBXTargetDependency */,
+				46EB2E0001A910 /* PBXTargetDependency */,
+				46EB2E0001A930 /* PBXTargetDependency */,
+				46EB2E0001A950 /* PBXTargetDependency */,
+				46EB2E0001A970 /* PBXTargetDependency */,
+				46EB2E0001A990 /* PBXTargetDependency */,
+				46EB2E0001A9B0 /* PBXTargetDependency */,
+				46EB2E0001A9D0 /* PBXTargetDependency */,
+				46EB2E0001A9F0 /* PBXTargetDependency */,
+				46EB2E0001AA10 /* PBXTargetDependency */,
+				46EB2E0001AA30 /* PBXTargetDependency */,
+				46EB2E0001AA50 /* PBXTargetDependency */,
+				46EB2E0001AA70 /* PBXTargetDependency */,
+				46EB2E0001AA90 /* PBXTargetDependency */,
+				46EB2E0001AAB0 /* PBXTargetDependency */,
+				46EB2E0001AAD0 /* PBXTargetDependency */,
+				46EB2E0001AAF0 /* PBXTargetDependency */,
+				46EB2E0001AB10 /* PBXTargetDependency */,
+			);
+			name = "Pods-quangnvdev-quangnvdevTests";
+			productName = "Pods-quangnvdev-quangnvdevTests";
+			productReference = F3499A9383B5100CE59AE16C57044C39 /* Pods-quangnvdev-quangnvdevTests */;
 			productType = "com.apple.product-type.library.static";
 		};
 		5CCB99E63FCEF3B56DC0BD71DFEC4618 /* RNSound */ = {
@@ -17601,91 +17686,6 @@
 			productReference = F958876A082BF810B342435CE3FB5AF6 /* RCTTypeSafety */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D394087F7584717F8DC3B03203D494C4 /* Pods-meetflow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 46EB2E00019760 /* Build configuration list for PBXNativeTarget "Pods-meetflow" */;
-			buildPhases = (
-				46EB2E000197A0 /* Headers */,
-				46EB2E000197B0 /* Sources */,
-				46EB2E000197C0 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				46EB2E00019A30 /* PBXTargetDependency */,
-				46EB2E00019A50 /* PBXTargetDependency */,
-				46EB2E00019A70 /* PBXTargetDependency */,
-				46EB2E00019A90 /* PBXTargetDependency */,
-				46EB2E00019AB0 /* PBXTargetDependency */,
-				46EB2E00019AD0 /* PBXTargetDependency */,
-				46EB2E00019AF0 /* PBXTargetDependency */,
-				46EB2E00019B10 /* PBXTargetDependency */,
-				46EB2E00019B30 /* PBXTargetDependency */,
-				46EB2E00019B50 /* PBXTargetDependency */,
-				46EB2E00019B70 /* PBXTargetDependency */,
-				46EB2E00019B90 /* PBXTargetDependency */,
-				46EB2E00019BB0 /* PBXTargetDependency */,
-				46EB2E00019BD0 /* PBXTargetDependency */,
-				46EB2E00019BF0 /* PBXTargetDependency */,
-				46EB2E00019C10 /* PBXTargetDependency */,
-				46EB2E00019C30 /* PBXTargetDependency */,
-				46EB2E00019C50 /* PBXTargetDependency */,
-				46EB2E00019C70 /* PBXTargetDependency */,
-				46EB2E00019C90 /* PBXTargetDependency */,
-				46EB2E00019CB0 /* PBXTargetDependency */,
-				46EB2E00019CD0 /* PBXTargetDependency */,
-				46EB2E00019CF0 /* PBXTargetDependency */,
-				46EB2E00019D10 /* PBXTargetDependency */,
-				46EB2E00019D30 /* PBXTargetDependency */,
-				46EB2E00019D50 /* PBXTargetDependency */,
-				46EB2E00019D70 /* PBXTargetDependency */,
-				46EB2E00019D90 /* PBXTargetDependency */,
-				46EB2E00019DB0 /* PBXTargetDependency */,
-				46EB2E00019DD0 /* PBXTargetDependency */,
-				46EB2E00019DF0 /* PBXTargetDependency */,
-				46EB2E00019E10 /* PBXTargetDependency */,
-				46EB2E00019E30 /* PBXTargetDependency */,
-				46EB2E00019E50 /* PBXTargetDependency */,
-				46EB2E00019E70 /* PBXTargetDependency */,
-				46EB2E00019E90 /* PBXTargetDependency */,
-				46EB2E00019EB0 /* PBXTargetDependency */,
-				46EB2E00019ED0 /* PBXTargetDependency */,
-				46EB2E00019EF0 /* PBXTargetDependency */,
-				46EB2E00019F10 /* PBXTargetDependency */,
-				46EB2E00019F30 /* PBXTargetDependency */,
-				46EB2E00019F50 /* PBXTargetDependency */,
-				46EB2E00019F70 /* PBXTargetDependency */,
-				46EB2E00019F90 /* PBXTargetDependency */,
-				46EB2E00019FB0 /* PBXTargetDependency */,
-				46EB2E00019FD0 /* PBXTargetDependency */,
-				46EB2E00019FF0 /* PBXTargetDependency */,
-				46EB2E0001A010 /* PBXTargetDependency */,
-				46EB2E0001A030 /* PBXTargetDependency */,
-				46EB2E0001A050 /* PBXTargetDependency */,
-				46EB2E0001A070 /* PBXTargetDependency */,
-				46EB2E0001A090 /* PBXTargetDependency */,
-				46EB2E0001A0B0 /* PBXTargetDependency */,
-				46EB2E0001A0D0 /* PBXTargetDependency */,
-				46EB2E0001A0F0 /* PBXTargetDependency */,
-				46EB2E0001A110 /* PBXTargetDependency */,
-				46EB2E0001A130 /* PBXTargetDependency */,
-				46EB2E0001A150 /* PBXTargetDependency */,
-				46EB2E0001A170 /* PBXTargetDependency */,
-				46EB2E0001A190 /* PBXTargetDependency */,
-				46EB2E0001A1B0 /* PBXTargetDependency */,
-				46EB2E0001A1D0 /* PBXTargetDependency */,
-				46EB2E0001A1F0 /* PBXTargetDependency */,
-				46EB2E0001A210 /* PBXTargetDependency */,
-				46EB2E0001A230 /* PBXTargetDependency */,
-				46EB2E0001A250 /* PBXTargetDependency */,
-				46EB2E0001A270 /* PBXTargetDependency */,
-				46EB2E0001A290 /* PBXTargetDependency */,
-			);
-			name = "Pods-meetflow";
-			productName = "Pods-meetflow";
-			productReference = 346652BCE05065D4E393C94AA52C18AD /* Pods-meetflow */;
-			productType = "com.apple.product-type.library.static";
-		};
 		DA0709CAAD589C6E7963495210438021 /* React-jsiexecutor */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46EB2E000173A0 /* Build configuration list for PBXNativeTarget "React-jsiexecutor" */;
@@ -18013,8 +18013,8 @@
 				D0EFEFB685D97280256C559792236873 /* glog */,
 				04A30E186743192DFB26B0FD7DB8F250 /* libevent */,
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
-				D394087F7584717F8DC3B03203D494C4 /* Pods-meetflow */,
-				1323C6F08EFFB932BCB7943EB2E6161A /* Pods-meetflow-meetflowTests */,
+				436E7D1F907F1F656B08AB0DA8AB7161 /* Pods-quangnvdev */,
+				5895B1715B324140F627AE4B8C0C6501 /* Pods-quangnvdev-quangnvdevTests */,
 				EC55D52694092A9D0E6A78EB01207EB5 /* RCT-Folly */,
 				E7E7CE52C8C68B17224FF8C262D80ABF /* RCTRequired */,
 				D20469A9A1E5CFB26045EAEBE3F88E5E /* RCTTypeSafety */,
@@ -19682,7 +19682,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E00019880 /* Pods-meetflow-dummy.m in Sources */,
+				46EB2E00019880 /* Pods-quangnvdev-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -19690,7 +19690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46EB2E000199C0 /* Pods-meetflow-meetflowTests-dummy.m in Sources */,
+				46EB2E000199C0 /* Pods-quangnvdev-quangnvdevTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -25862,7 +25862,7 @@
 		};
 		46EB2E00019770 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000197E0 /* Pods-meetflow.release.xcconfig */;
+			baseConfigurationReference = 46EB2E000197E0 /* Pods-quangnvdev.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -25871,7 +25871,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-meetflow/Pods-meetflow.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-quangnvdev/Pods-quangnvdev.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -25885,7 +25885,7 @@
 		};
 		46EB2E00019780 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E000197F0 /* Pods-meetflow.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E000197F0 /* Pods-quangnvdev.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -25894,7 +25894,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-meetflow/Pods-meetflow.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-quangnvdev/Pods-quangnvdev.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -25907,7 +25907,7 @@
 		};
 		46EB2E000198B0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00019920 /* Pods-meetflow-meetflowTests.release.xcconfig */;
+			baseConfigurationReference = 46EB2E00019920 /* Pods-quangnvdev-quangnvdevTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -25916,7 +25916,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-meetflow-meetflowTests/Pods-meetflow-meetflowTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-quangnvdev-quangnvdevTests/Pods-quangnvdev-quangnvdevTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -25930,7 +25930,7 @@
 		};
 		46EB2E000198C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46EB2E00019930 /* Pods-meetflow-meetflowTests.debug.xcconfig */;
+			baseConfigurationReference = 46EB2E00019930 /* Pods-quangnvdev-quangnvdevTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -25939,7 +25939,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-meetflow-meetflowTests/Pods-meetflow-meetflowTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-quangnvdev-quangnvdevTests/Pods-quangnvdev-quangnvdevTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -26601,7 +26601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E00019760 /* Build configuration list for PBXNativeTarget "Pods-meetflow" */ = {
+		46EB2E00019760 /* Build configuration list for PBXNativeTarget "Pods-quangnvdev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E00019780 /* Debug */,
@@ -26610,7 +26610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		46EB2E000198A0 /* Build configuration list for PBXNativeTarget "Pods-meetflow-meetflowTests" */ = {
+		46EB2E000198A0 /* Build configuration list for PBXNativeTarget "Pods-quangnvdev-quangnvdevTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				46EB2E000198C0 /* Debug */,
