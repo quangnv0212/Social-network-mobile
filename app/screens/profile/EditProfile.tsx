@@ -52,8 +52,8 @@ const EditProfile = () => {
         }).then((image) => {
           setImageUrl(image.path);
         });
-      } catch (e) {
-        console.log(e);
+      } catch (error) {
+        console.log(error);
       }
     } else {
       pickImage();

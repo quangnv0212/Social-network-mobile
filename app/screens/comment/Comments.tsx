@@ -187,7 +187,6 @@ const Comments = (props) => {
       }
     );
   };
-  console.log(data?.comment);
   return (
     <SafeAreaView
       style={{

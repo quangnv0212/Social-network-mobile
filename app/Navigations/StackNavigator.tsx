@@ -122,7 +122,6 @@ const AuthenticatedStack = () => {
       <Stack.Screen name="Comments" component={Comments} />
       <Stack.Screen name="createpost" component={CreatePost} />
       <Stack.Screen name="SingleChat" component={SingleChat} />
-
       <Stack.Screen name="status" component={Status} />
       <Stack.Screen name="AddStory" component={AddStory} />
       <Stack.Screen name="Settings" component={Settings} />

@@ -8,6 +8,7 @@ import {
   TextInput,
   KeyboardAvoidingView,
   Platform,
+  FlatList,
 } from "react-native";
 import { useTheme } from "@react-navigation/native";
 import { IMAGES, SIZES, FONTS } from "../../constants/theme";
@@ -115,81 +116,76 @@ const Search = ({ navigation }: { navigation: any }) => {
           >
             Suggestion
           </Text>
-          <ScrollView
+          <FlatList
             horizontal
             showsHorizontalScrollIndicator={false}
             contentContainerStyle={{ paddingLeft: 15 }}
-          >
-            {userList &&
-              userList.length &&
-              userList.map((data, index) => {
-                const isFollowing = data.followers.includes(idUser);
-                return (
+            data={userList}
+            renderItem={({ item }) => {
+              const isFollowing = item.followers.includes(idUser);
+
+              return (
+                <View style={{ marginBottom: 30, marginRight: 10 }}>
                   <View
-                    key={index}
-                    style={{ marginBottom: 30, marginRight: 10 }}
+                    style={{
+                      backgroundColor: colors.input,
+                      height: 153,
+                      width: 135,
+                      borderRadius: SIZES.radius,
+                    }}
                   >
-                    <View
-                      style={{
-                        backgroundColor: colors.input,
-                        height: 153,
-                        width: 135,
-                        borderRadius: SIZES.radius,
-                      }}
-                    >
-                      <View style={{ alignItems: "center" }}>
-                        <TouchableOpacity
-                          onPress={() => {
-                            navigation.navigate("AnotherProfile", {
-                              username: data.username,
-                            });
-                          }}
-                          style={{ marginTop: 20 }}
-                        >
-                          <View>
-                            <Image
-                              style={{
-                                width: 50,
-                                height: 50,
-                                borderRadius: 50,
-                              }}
-                              source={{
-                                uri: data.picture,
-                              }}
-                            />
-                          </View>
-                        </TouchableOpacity>
-                        <Text
-                          style={[
-                            GlobalStyleSheet.textfont,
-                            { color: colors.title, marginTop: 10 },
-                          ]}
-                        >
-                          {data.username}
-                        </Text>
-                        <View style={{ marginTop: 10 }}>
-                          {!isFollowing ? (
-                            <Followbtn
-                              title="Follow"
-                              onPress={() => {
-                                onFollow(data._id);
-                              }}
-                            />
-                          ) : (
-                            <Sharebtn
-                              title="Following"
-                              white={true}
-                              onPress={() => onUnfollow(data._id)}
-                            />
-                          )}
+                    <View style={{ alignItems: "center" }}>
+                      <TouchableOpacity
+                        onPress={() => {
+                          navigation.navigate("AnotherProfile", {
+                            username: item.username,
+                          });
+                        }}
+                        style={{ marginTop: 20 }}
+                      >
+                        <View>
+                          <Image
+                            style={{
+                              width: 50,
+                              height: 50,
+                              borderRadius: 50,
+                            }}
+                            source={{
+                              uri: item.picture,
+                            }}
+                          />
                         </View>
+                      </TouchableOpacity>
+                      <Text
+                        style={[
+                          GlobalStyleSheet.textfont,
+                          { color: colors.title, marginTop: 10 },
+                        ]}
+                      >
+                        {item.username}
+                      </Text>
+                      <View style={{ marginTop: 10 }}>
+                        {!isFollowing ? (
+                          <Followbtn
+                            title="Follow"
+                            onPress={() => {
+                              onFollow(item._id);
+                            }}
+                          />
+                        ) : (
+                          <Sharebtn
+                            title="Following"
+                            white={true}
+                            onPress={() => onUnfollow(item._id)}
+                          />
+                        )}
                       </View>
                     </View>
                   </View>
-                );
-              })}
-          </ScrollView>
-
+                </View>
+              );
+            }}
+          />
           <View style={{ width: SIZES.width }}>
             <Text
               style={[

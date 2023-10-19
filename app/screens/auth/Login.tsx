@@ -36,7 +36,6 @@ const Login = ({ navigation }: { navigation: any }) => {
   const loginMutation = useMutation({
     mutationFn: (body: FormData) => authApi.login(body),
   });
-
   const queryClient = useQueryClient();
   const onSubmit = (data: any) => {
     loginMutation.mutate(data, {
@@ -66,7 +65,6 @@ const Login = ({ navigation }: { navigation: any }) => {
     onFocus1: false,
     onFocus2: false,
   });
-
   useEffect(() => {
     if (loading) {
       navigation.navigate("BottomNavigation");
@@ -76,7 +74,6 @@ const Login = ({ navigation }: { navigation: any }) => {
     setLoading(false);
   });
   const loginWithGoogle = () => {};
-
   return (
     <>
       {loading && (

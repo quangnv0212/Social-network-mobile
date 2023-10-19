@@ -31,9 +31,7 @@ const Item = ({
   username: string;
   avatar: string;
 }) => {
-  const hasStory = false;
   const navigation = useNavigation();
-  const chatcount = 0;
   const { data: chatData } = useQuery({
     queryKey: ["chat", id],
     queryFn: () => getConversation(id),
@@ -47,7 +45,6 @@ const Item = ({
     chatData && chatData.length > 0
       ? chatData[chatData.length - 1].createdAt
       : "";
-  console.log(lastMessageTime);
 
   return (
     <TouchableOpacity
@@ -137,62 +134,57 @@ const Item = ({
 
 const ActiveChat = ({ userList }: any) => {
   const navigation = useNavigation();
-  console.log(userList);
-
   const theme = useTheme();
   const { colors } = theme;
   const chatPrivate = (id: string, username: string, avatar: string) => {
-    console.log("chat with", id);
     navigation.navigate("SingleChat", { id, username, avatar });
   };
   return (
     <View>
-      <ScrollView
+      <FlatList
         horizontal
         showsHorizontalScrollIndicator={false}
         contentContainerStyle={{ paddingHorizontal: 15, gap: 10 }}
-      >
-        {userList?.map((data, index) => {
-          return (
-            <TouchableOpacity
-              onPress={() =>
-                chatPrivate(data?._id, data?.username, data?.picture)
-              }
-              key={index}
-              style={{ alignItems: "center", marginBottom: 10, width: 65 }}
+        data={userList}
+        renderItem={({ item }) => (
+          <TouchableOpacity
+            onPress={() =>
+              chatPrivate(item?._id, item?.username, item?.picture)
+            }
+            style={{ alignItems: "center", marginBottom: 10, width: 65 }}
+          >
+            <Image
+              style={{ width: 55, height: 55, borderRadius: 50 }}
+              source={{ uri: item?.picture }}
+            />
+            <Text
+              numberOfLines={1}
+              style={{
+                ...FONTS.fontMedium,
+                color: colors.title,
+                fontSize: 10,
+                marginTop: 5,
+              }}
             >
-              <Image
-                style={{ width: 55, height: 55, borderRadius: 50 }}
-                source={{ uri: data?.picture }}
-              />
-              <Text
-                numberOfLines={1}
-                style={{
-                  ...FONTS.fontMedium,
-                  color: colors.title,
-                  fontSize: 10,
-                  marginTop: 5,
-                }}
-              >
-                {data?.username}
-              </Text>
-              <View
-                style={{
-                  backgroundColor: COLORS.success,
-                  width: 12,
-                  height: 12,
-                  borderRadius: 50,
-                  position: "absolute",
-                  bottom: 20,
-                  right: 8,
-                  borderWidth: 2,
-                  borderColor: colors.card,
-                }}
-              ></View>
-            </TouchableOpacity>
-          );
-        })}
-      </ScrollView>
+              {item?.username}
+            </Text>
+            <View
+              style={{
+                backgroundColor: COLORS.success,
+                width: 12,
+                height: 12,
+                borderRadius: 50,
+                position: "absolute",
+                bottom: 20,
+                right: 8,
+                borderWidth: 2,
+                borderColor: colors.card,
+              }}
+            ></View>
+          </TouchableOpacity>
+        )}
+      />
+
       <Text
         style={{
           ...FONTS.fontMedium,
@@ -208,15 +200,13 @@ const ActiveChat = ({ userList }: any) => {
   );
 };
 
-const Chat = ({ navigation }) => {
+const Chat = ({ navigation }: { navigation: any }) => {
   const theme = useTheme();
   const { colors } = theme;
   const { data: userList } = useQuery({
     queryKey: ["userList"],
     queryFn: () => getAllUser(),
   });
-  console.log(userList);
-
   return (
     <SafeAreaView style={{ backgroundColor: colors.card, flex: 1 }}>
       <View style={GlobalStyleSheet.container}>
@@ -292,7 +282,6 @@ const Chat = ({ navigation }) => {
           showsVerticalScrollIndicator={false}
           data={userList}
           renderItem={({ item }) => {
-            console.log(item);
             return (
               <Item
                 avatar={item?.picture}
@@ -309,5 +298,4 @@ const Chat = ({ navigation }) => {
     </SafeAreaView>
   );
 };
-
 export default Chat;

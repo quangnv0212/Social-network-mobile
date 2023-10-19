@@ -20,10 +20,11 @@ import ChatoptionSheet from "../../components/bottomsheet/ChatoptionSheet";
 import { GlobalStyleSheet } from "../../constants/styleSheet";
 import { COLORS, FONTS, IMAGES } from "../../constants/theme";
 import { AppContext } from "../../contexts/app.context";
+import configHttp from "../../constants/configHttp";
 
 const SingleChat = ({ navigation, route }: { navigation: any; route: any }) => {
   const { token, idUser, isAuthenticated } = useContext(AppContext);
-  const socket = io("http://localhost:8000", {
+  const socket = io(configHttp.baseUrl, {
     auth: {
       Authorization: `Bearer ${token}`,
     },
@@ -53,20 +54,9 @@ const SingleChat = ({ navigation, route }: { navigation: any; route: any }) => {
       receiver_id: route.params.id,
     };
 
-    socket.emit(
-      "send_message",
-      {
-        payload: conversation,
-      },
-      (error) => {
-        if (error) {
-          console.log("Gửi tin nhắn thất bại: ", error);
-        } else {
-          console.log("Gửi tin nhắn thành công.");
-          queryClient.invalidateQueries(["chat", id]);
-        }
-      }
-    );
+    socket.emit("send_message", {
+      payload: conversation,
+    });
   };
   const moresheet = React.useRef();
   return (

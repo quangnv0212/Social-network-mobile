@@ -158,7 +158,6 @@ const PostShareSheet = (props, ref) => {
   const snapPoints = useMemo(() => ["75%"], []);
   // callbacks
   const handleSheetChanges = useCallback((index) => {
-    console.log("handleSheetChanges", index);
     if (index === -1) {
       Keyboard.dismiss();
     }

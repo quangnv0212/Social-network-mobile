@@ -12,18 +12,23 @@ import { useTheme } from "@react-navigation/native";
 import { useContext, useEffect, useRef } from "react";
 import { AppContext } from "../contexts/app.context";
 
-function BottomTab({ state, descriptors, navigation }) {
+function BottomTab({
+  state,
+  descriptors,
+  navigation,
+}: {
+  state: any;
+  descriptors: any;
+  navigation: any;
+}) {
   const theme = useTheme();
   const { colors } = theme;
-
   const tabWidth = SIZES.width;
-
   const circlePosition = useRef(
     new Animated.Value(
       tabWidth < SIZES.container ? tabWidth / 2.5 : SIZES.container / 2.5
     )
   ).current;
-
   const tabW = tabWidth < SIZES.container ? tabWidth / 5 : SIZES.container / 5;
 
   useEffect(() => {
