@@ -6,6 +6,7 @@ import BottomTab from "../layout/BottomTab";
 import HomeScreen from "../screens/home/HomeScreen";
 import Profile from "../screens/profile/Profile";
 import Search from "../screens/search/Search";
+import Chat from "../screens/chat/Chat";
 
 const Tab = createBottomTabNavigator();
 
@@ -23,7 +24,7 @@ function BottomNavigation() {
         <Tab.Screen name="Home" component={HomeScreen} />
         <Tab.Screen name="Search" component={Search} />
         <Tab.Screen name="Reels" component={Search} />
-        <Tab.Screen name="Chat" component={Search} />
+        <Tab.Screen name="Chat" component={Chat} />
         <Tab.Screen name="Profile" component={Profile} />
       </Tab.Navigator>
     </SafeAreaView>

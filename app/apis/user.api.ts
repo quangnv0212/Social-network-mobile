@@ -96,3 +96,18 @@ export const unfollow = async (id: string) => {
     return error.response.data.message;
   }
 };
+
+export const getConversation = async (receiver_id: string) => {
+  const token = await AsyncStorage.getItem("token");
+  try {
+    const { data } = await http.get(`receivers/${receiver_id}`, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json",
+      },
+    });
+    return data;
+  } catch (error: any) {
+    return error.response.data.message;
+  }
+};

@@ -1,5 +1,6 @@
 import { createContext, useState } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useQueryClient } from "@tanstack/react-query";
 
 interface AppContextInterface {
   token: string | null;
@@ -48,7 +49,7 @@ export const AppProvider = ({
   const [idUser, setIdUser] = useState<string | null>();
   const [userName, setUserName] = useState<string | null>();
   const [avatar, setAvatar] = useState<string | null>();
-
+  const queryClient = useQueryClient();
   function authenticate(
     token: string,
     idUser: string,
@@ -63,6 +64,7 @@ export const AppProvider = ({
     AsyncStorage.setItem("username", userName);
     setAvatar(avatar);
     AsyncStorage.setItem("avatar", avatar);
+    queryClient.resetQueries();
   }
 
   function logout() {
@@ -74,6 +76,7 @@ export const AppProvider = ({
     AsyncStorage.removeItem("username");
     setAvatar(null);
     AsyncStorage.removeItem("avatar");
+    queryClient.resetQueries();
   }
   function setDarkTheme() {
     setIsDarkTheme(true);

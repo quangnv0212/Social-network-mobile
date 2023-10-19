@@ -30,87 +30,21 @@ import { useNavigation } from "@react-navigation/native";
 import { useQuery } from "@tanstack/react-query";
 import { getAllUser } from "../../apis/user.api";
 
-const ShareData = [
-  {
-    id: "1",
-    title: "Alex Techie",
-    image: IMAGES.storypic1,
-    text: "alex_techie_2123",
-    hasStory: false,
-  },
-  {
-    id: "2",
-    title: "Lily Learns",
-    image: IMAGES.storypic2,
-    text: "your_lily@123",
-    hasStory: true,
-  },
-  {
-    id: "3",
-    title: "Mia Maven",
-    image: IMAGES.storypic3,
-    text: "mia-meaver_420",
-    hasStory: false,
-  },
-  {
-    id: "4",
-    title: "Sophia James",
-    image: IMAGES.storypic4,
-    text: "sophia_james",
-    hasStory: true,
-  },
-  {
-    id: "5",
-    title: "Deepesh gaur",
-    image: IMAGES.storypic1,
-    text: "deepesh_gaur22",
-    hasStory: false,
-  },
-  {
-    id: "6",
-    title: "Alex Techie",
-    image: IMAGES.storypic4,
-    text: "alex_techie_2123",
-    hasStory: false,
-  },
-  {
-    id: "7",
-    title: "Lily Learns",
-    image: IMAGES.storypic2,
-    text: "your_lily@123",
-    hasStory: false,
-  },
-  {
-    id: "8",
-    title: "Mia Maven",
-    image: IMAGES.storypic3,
-    text: "mia-meaver_420",
-    hasStory: false,
-  },
-  {
-    id: "9",
-    title: "Sophia James",
-    image: IMAGES.storypic4,
-    text: "sophia_james",
-    hasStory: false,
-  },
-  {
-    id: "10",
-    title: "Deepesh gaur",
-    image: IMAGES.storypic1,
-    text: "deepesh_gaur22",
-    hasStory: false,
-  },
-  {
-    id: "11",
-    title: "Alex Techie",
-    image: IMAGES.storypic2,
-    text: "alex_techie_2123",
-    hasStory: true,
-  },
-];
-
-const Item = ({ title, image, text, hasStory, navigation, theme }) => {
+const Item = ({
+  title,
+  image,
+  text,
+  hasStory,
+  navigation,
+  theme,
+}: {
+  title: string;
+  image: any;
+  text: string;
+  hasStory: boolean;
+  navigation: any;
+  theme: any;
+}) => {
   const [isChecked, setIsChecked] = useState(false);
   return (
     <TouchableOpacity
@@ -219,12 +153,9 @@ const PostShareSheet = (props, ref) => {
     queryKey: ["userList"],
     queryFn: () => getAllUser(),
   });
-  console.log(userList);
   const bottomSheetRef = useRef(null);
-
   // variables
   const snapPoints = useMemo(() => ["75%"], []);
-
   // callbacks
   const handleSheetChanges = useCallback((index) => {
     console.log("handleSheetChanges", index);

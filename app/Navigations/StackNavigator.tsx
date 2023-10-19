@@ -37,6 +37,7 @@ import Theme from "../screens/settings/theme/Theme";
 import AddStory from "../screens/status/AddStory";
 import Status from "../screens/status/Status";
 import BottomNavigation from "./BottomNavigation";
+import SingleChat from "../screens/chat/SingleChat";
 const Stack = createStackNavigator();
 function Root() {
   const authCtx = useContext(AppContext);
@@ -120,6 +121,8 @@ const AuthenticatedStack = () => {
       <Stack.Screen name="homescreen" component={HomeScreen} />
       <Stack.Screen name="Comments" component={Comments} />
       <Stack.Screen name="createpost" component={CreatePost} />
+      <Stack.Screen name="SingleChat" component={SingleChat} />
+
       <Stack.Screen name="status" component={Status} />
       <Stack.Screen name="AddStory" component={AddStory} />
       <Stack.Screen name="Settings" component={Settings} />

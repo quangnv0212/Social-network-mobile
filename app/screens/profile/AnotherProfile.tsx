@@ -380,60 +380,7 @@ const AnotherProfile = ({
           <View style={{ width: SIZES.width }}>
             <View
               style={{ marginTop: 5, flexDirection: "row", flexWrap: "wrap" }}
-            >
-              {ReelsData.map((data, index) => {
-                return (
-                  <View key={index} style={{ width: "33.33%", padding: 2 }}>
-                    <TouchableOpacity
-                      onPress={() => navigation.navigate("ProfileReels")}
-                    >
-                      <Image
-                        style={{
-                          width: "100%",
-                          height: undefined,
-                          aspectRatio: 1 / 1.8,
-                        }}
-                        source={data.image}
-                      />
-                      <View
-                        style={{
-                          flexDirection: "row",
-                          gap: 5,
-                          alignItems: "center",
-                          backgroundColor: "rgba(255, 255, 255, 0.20)",
-                          position: "absolute",
-                          borderRadius: 15,
-                          paddingHorizontal: 10,
-                          paddingVertical: 3,
-                          top: 10,
-                          right: 10,
-                        }}
-                      >
-                        <Image
-                          style={{
-                            width: 12,
-                            height: 12,
-                            resizeMode: "contain",
-                            tintColor: "#fff",
-                          }}
-                          source={IMAGES.eyeopen}
-                        />
-                        <Text
-                          style={{
-                            ...FONTS.fontRegular,
-                            fontSize: 10,
-                            color: COLORS.white,
-                            lineHeight: 14,
-                          }}
-                        >
-                          {data.like}
-                        </Text>
-                      </View>
-                    </TouchableOpacity>
-                  </View>
-                );
-              })}
-            </View>
+            ></View>
           </View>
         </ScrollView>
       </ScrollView>

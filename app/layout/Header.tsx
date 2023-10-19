@@ -1,10 +1,8 @@
-import React, { useRef } from "react";
-import { View, Text, TouchableOpacity, Image, Share } from "react-native";
-import { COLORS, FONTS, IMAGES } from "../constants/theme";
-import { useNavigation } from "@react-navigation/native";
+import { useNavigation, useTheme } from "@react-navigation/native";
+import React from "react";
+import { Image, Share, Text, TouchableOpacity, View } from "react-native";
 import { GlobalStyleSheet } from "../constants/styleSheet";
-import { useTheme } from "@react-navigation/native";
-import ChatoptionSheet from "../components/bottomsheet/ChatoptionSheet";
+import { FONTS, IMAGES } from "../constants/theme";
 
 const Header = (props: {
   title: string;

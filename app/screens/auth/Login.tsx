@@ -18,7 +18,7 @@ import { useFocusEffect, useTheme } from "@react-navigation/native";
 import { GlobalStyleSheet } from "../../constants/styleSheet";
 import Button from "../../components/button/Button";
 import { AppContext } from "../../contexts/app.context";
-import { useMutation } from "@tanstack/react-query";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
 import authApi from "../../apis/auth.api";
 import { Controller, useForm } from "react-hook-form";
 
@@ -36,6 +36,8 @@ const Login = ({ navigation }: { navigation: any }) => {
   const loginMutation = useMutation({
     mutationFn: (body: FormData) => authApi.login(body),
   });
+
+  const queryClient = useQueryClient();
   const onSubmit = (data: any) => {
     loginMutation.mutate(data, {
       onSuccess: async (data) => {
@@ -43,8 +45,9 @@ const Login = ({ navigation }: { navigation: any }) => {
         const idUser = data.data.id;
         const username = data.data.username;
         const picture = data.data.picture;
-
+        queryClient.invalidateQueries(["userList"]);
         authCtx.authenticate(token, idUser, username, picture);
+
         navigation.replace("BottomNavigation");
       },
       onError: (error) => {
